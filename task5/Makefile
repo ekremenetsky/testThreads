@@ -1,5 +1,5 @@
 TARGET=main
-FLAGS=-O0 -lpthread
+FLAGS= -lpthread
 all: $(TARGET)
 
 main: main.c
