@@ -5,7 +5,7 @@
 
 
 #define NUM_THREADS     1
-#define BUFF_SIZE       10000000
+#define BUFF_SIZE       100000000
 #define AREA_SIZE       BUFF_SIZE / NUM_THREADS
 
 float global_buff[BUFF_SIZE]; // данные с которыми будут работать потоки
